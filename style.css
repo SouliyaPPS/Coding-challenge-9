@@ -1,0 +1,85 @@
+
+.w-icons > .container > h3 {
+    margin-bottom: 3rem;
+}
+
+.w-icon {
+    width: 80px;
+    min-width: auto;
+    max-width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    border-radius: 50%;
+    background-color: #f96332;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 5px 35px 0 rgba(0,0,0,0.3);
+}
+
+.w-icon i {
+    display: block;
+    font-size: 24px;
+    line-height: 80px;
+}
+
+.w-icons .row > .col h3 {
+    margin-bottom: 0;
+}
+
+.w-icons .row > .col {
+    position: relative;
+}
+
+.w-icons .row > .col::after {
+    position: absolute;
+    top: 7%;
+    right: 0;
+    content: "";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    color: #f96332;
+    font-size: 35px;
+    margin:0px 0px 0px 10px;
+    text-decoration:none;
+}
+
+.w-icons .row > .col:last-child::after {
+    content: "";
+}
+
+.section-quote {
+    min-height: 400px;
+    max-height: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url('assets/img/background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-quote .bg-image {
+    position: fixed;
+    top: 0;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.blockquote.blockquote-primary {
+    background-color: #f96332;
+    color: #fff;
+}
+
+.blockquote.blockquote-primary small {
+    color: #fff;
+}
+
+footer .copyright {
+    float: none !important;
+}
