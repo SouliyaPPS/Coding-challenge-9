@@ -1,3 +1,9 @@
+.page-header {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .w-icons > .container > h3 {
     margin-bottom: 3rem;
@@ -182,6 +188,11 @@
 .blockquote.blockquote-primary {
     background-color: #f96332;
     color: #fff;
+}
+
+.blockquote span {
+    font-size: 19px;
+    font-weight: 400;
 }
 
 .blockquote.blockquote-primary small {
